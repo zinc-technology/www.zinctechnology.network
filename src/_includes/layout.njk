@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+
+    <div>
+      <header>
+        <h1>{{ title }}</h1>
+      </header>
+      <div>
+        <h2>{{ subtitle }}</h2>
+        {{ content | safe }}
+      </div>
+      <footer>
+        <p>
+          <i class="cc cc-cc"></i>
+          <i class="cc cc-by"></i>
+          <i class="cc cc-sa"></i>
+        </p>
+        <p>Except where otherwise noted, content on this site is licensed under a
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+
+        <p>Please direct inquiries to
+          <a href="mailto: zee@zincma.de">zee@zincma.de</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

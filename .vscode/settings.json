@@ -3,5 +3,14 @@
   "html.format.extraLiners": "head, body, /html, h3, h2, h1, p, ul, section",
   "html.format.endWithNewline": true,
   "editor.wordWrap": "bounded",
-  "editor.wordWrapColumn": 120
+  "editor.wordWrapColumn": 120,
+  "ltex.additionalRules.enablePickyRules": true,
+  "ltex.dictionary": {
+    "en-US": [
+      "ZTN", "microconsultancy", "Notabli", "href"
+  ]
+  },
+  "ltex.disabledRules": {
+  "en-US": ["WHITESPACE_RULE", "EN_QUOTES"]
+  }
 }

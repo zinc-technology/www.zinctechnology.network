@@ -1,0 +1,7 @@
+{
+  "html.format.preserveNewLines": false,
+  "html.format.extraLiners": "head, body, /html, h3, h2, h1, p, ul, section",
+  "html.format.endWithNewline": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120
+}

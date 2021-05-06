@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "eseom.nunjucks-template",
+    "esbenp.prettier-vscode",
+    "valentjn.vscode-ltex",
+    "yzhang.markdown-all-in-one",
+    "eamodio.gitlens",
+    "sleistner.vscode-fileutils",
+    "editorconfig.editorconfig"
+  ]
+}
